@@ -1,0 +1,9 @@
+---
+
+- name: this is hello world example
+  hosts: target1
+  tasks:
+          - name: create file
+            copy:
+                    src: ./files/testfile.txt
+                    dest: /tmp/testfile.txt
