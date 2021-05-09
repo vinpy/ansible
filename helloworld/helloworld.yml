@@ -1,7 +1,7 @@
 ---
 
 - name: this is hello world example
-  hosts: target1
+  hosts: all
   tasks:
           - name: create file
             copy:
